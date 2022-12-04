@@ -1,0 +1,12 @@
+
+.card {
+    background-color: rgb(238, 167, 59);
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+}
+
+fieldset > div {
+    text-align: left;
+}
