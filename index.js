@@ -1,3 +1,23 @@
+const submit = document.querySelector(".enter");
+
+function enter() {
+  submit.style.backgroundColor = "green";
+  //   submit.appendChild();
+}
+
+const answer1 = document.getElementById("a1");
+const answer2 = document.getElementById("a2");
+const answer3 = document.getElementById("a3");
+
+function selectAnswer(id) {
+  console.log(id);
+  if (id === "a1") {
+    answer1.style.backgroundColor = "red";
+  } else if (id === "a2") {
+  } else if (id === "a3") {
+  }
+}
+
 // const card = document.querySelector(".card");
 
 // // the array of review questions:

@@ -19,7 +19,6 @@
 }
 
 .answer:hover {
-    /* font-size: large; */
     font-weight: bold;
 }
 
@@ -28,5 +27,18 @@
 }
 
 .answer:visited {
+    font-weight: bold;
+}
+
+.enter {
+    width: 20%;
+    margin: 4% 75%;
+    background-color: rgb(229, 187, 135);
+}
+
+.btn {
+    border-radius: 5%;
+}
+.enter:hover {
     font-weight: bold;
 }
