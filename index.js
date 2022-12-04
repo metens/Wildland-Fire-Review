@@ -1,22 +1,23 @@
-const card = document.querySelector(".card");
+// const card = document.querySelector(".card");
 
-// the array of review questions:
-const questions = [
-  { q: document.querySelector(".q1"), viewed: false },
-  { q: document.querySelector(".q2"), viewed: false },
-];
+// // the array of review questions:
+// const questions = [
+//   { q: document.querySelector(".q1"), viewed: false },
+//   { q: document.querySelector(".q2"), viewed: false },
+// ];
 
-// start out with all questions hidden:
-questions.forEach((question) => {
-  //   question.style.visibility = "hidden";
-  question.q.style.display = "none";
-});
+// // start out with all questions hidden:
+// questions.forEach((question) => {
+//   //   question.style.visibility = "hidden";
+//   question.q.style.display = "none";
+// });
 
-// randomly select one question not yet viewed:
-if (!questions[Math.floor(Math.random() * questions.length)].viewed) {
-  questions[Math.floor(Math.random() * questions.length)].q.style.display =
-    "block";
-}
+// // randomly select one question not yet viewed:
+// if (!questions[Math.floor(Math.random() * questions.length)].viewed) {
+//   questions[Math.floor(Math.random() * questions.length)].q.style.display =
+//     "block";
+// }
+
 // questions[Math.floor(Math.random() * questions.length)].style.visibility =
 //   "visible";
 

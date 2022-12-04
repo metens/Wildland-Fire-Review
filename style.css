@@ -5,8 +5,28 @@
     height: 50vh;
     margin: auto;
     text-align: center;
+    border: thick solid #000;
 }
 
-fieldset > div {
+/* fieldset > div {
     text-align: left;
+} */
+
+.answer {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(232, 189, 126);
+}
+
+.answer:hover {
+    /* font-size: large; */
+    font-weight: bold;
+}
+
+.answer:active {
+    transform: scale(0.95);
+}
+
+.answer:visited {
+    font-weight: bold;
 }
